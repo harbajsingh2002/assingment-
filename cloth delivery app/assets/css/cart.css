@@ -1,0 +1,87 @@
+body {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #e74c3c;
+    text-align: center;
+}
+
+#orderForm {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e74c3c;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Increase button font size */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#myOrders {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+#orderList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#orderList li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#orderList img {
+    max-width: 100%; /* Increase image size */
+    height: auto;
+    border-radius: 4px;
+}
