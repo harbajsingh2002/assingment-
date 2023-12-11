@@ -1,0 +1,109 @@
+body {
+  background-image: url(../images/female-friends-out-shopping-together.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff; 
+}
+
+  
+.login-page {
+  /* width: 400px; */
+  /* padding: 8% 0; */
+  margin-top: 10%;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+  
+#form {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 90px 45px 20px 45px;
+  text-align: center;
+  border-radius: 10px; 
+}
+
+#form .inner-circle {
+  position: absolute;
+  top: 0px; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 120px;
+  width: 120px;
+  background-color: #fff;
+  border: 2px solid blue;
+  border-radius: 50%;
+  line-height: 120px;
+  font-size: 30px; 
+  color: lightblue; 
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+#form input {
+  font-family: inherit;
+  outline: 0;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin: 0 0 15px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+#form input:hover {
+  background-color: #f8f8f8;
+}
+
+#form button {
+  font-family: inherit;
+  text-transform: uppercase;
+  outline: 0;
+  background:blue; 
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 4px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#form button:hover {
+  background-color: #2980b9;
+}
+
+#form .message {
+  margin: 15px 0 0;
+  color: #fff;
+  font-size: 12px;
+  text-align: justify;
+}
+
+#form .message a {
+  color: lightskyblue; 
+}
+  #form .register-form {
+    display: none;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #b3b3b3;
+  }
+  
